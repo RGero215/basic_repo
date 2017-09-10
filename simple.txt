@@ -1,0 +1,20 @@
+On GitHub added a repo basic_repo
+On terminal mkdir basic_repo
+cd basic_repo
+git init
+touch index.html
+touch style.css
+touch about.txt
+git add .
+git commit -m “initial commit”
+git remote add origin git@github.com:RGero215/basic_repo.git
+git push -u origin master
+Added some content to index.html and about.txt locally
+git add .
+git commit -m “added some content to index.html and about.txt files”
+git push 
+On GitHub refresh the browser
+touch simple.txt
+git add.
+git commit -m “outlined steps”
+git push
